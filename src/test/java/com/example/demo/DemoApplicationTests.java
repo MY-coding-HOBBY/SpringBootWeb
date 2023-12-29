@@ -20,11 +20,8 @@ public class DemoApplicationTests {
 	private TestRestTemplate restTemplate;
 
 	@Test
-	public void homeResponse() {
-		String body = this.restTemplate.getForObject("/check", String.class);
+	public void myFirstGet() {
+		String body = this.restTemplate.getForObject("/myFirstGet", String.class);
 		assertThat(body).startsWith("Spring boot");
-
-		
-		
 	}
 }
