@@ -1,5 +1,7 @@
 package com.example.model;
 
+import org.apache.commons.lang3.builder.ToStringBuilder;
+
 //use lombok later
 public class BasicRequest {
 
@@ -18,4 +20,8 @@ public class BasicRequest {
 	public void setInput2(String input2) {
 		this.input2 = input2;
 	}	
+	
+	public String toString() {
+		return ToStringBuilder.reflectionToString(this);
+	}
 }
