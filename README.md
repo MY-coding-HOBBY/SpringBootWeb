@@ -8,8 +8,18 @@ git clone https://github.com/adhusury/SpringBootWeb.git
 
 cd SpringBootWeb
 
-Use following VM Arguments to Run
+Use Eclipse IDE: File --> Import --> Navigate to your Project folder "SpringBootWeb" 
 
--Dspring.profiles.active=local
+Right click pom.xml file and install
+
+Run: 
+
+Navigate to com.example.demo.DemoApplication.java -> Right Click -> Run As -> Run Configurations ->  "VM Arguments" tab Copy the below
+
+-Dspring.profiles.active=local 
+
+Apply and Run
 ### 
+Using browser navigate to http://localhost:5001/myFirstGet
+
 

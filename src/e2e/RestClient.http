@@ -1,0 +1,10 @@
+GET http://localhost:5001/myFirstGet
+
+###
+POST http://localhost:5001/myFirstPost
+content-type: application/json
+
+{
+    "input1": "sample",
+    "input2": "test"
+}
