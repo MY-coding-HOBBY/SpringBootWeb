@@ -1,10 +1,12 @@
 GET http://localhost:5001/myFirstGet
 
 ###
-POST http://localhost:5001/myFirstPost
+POST http://localhost:5001/register/create
 content-type: application/json
 
 {
-    "input1": "sample",
-    "input2": "test"
+    "fname": "sampleFirstName",
+    "lname": "sampleLastName",
+    "email": "email@gmail.com",
+    "password": "samplePassword"
 }
