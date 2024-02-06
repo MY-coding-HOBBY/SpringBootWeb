@@ -8,7 +8,7 @@ git clone https://github.com/MY-coding-HOBBY/SpringBootWeb.git
 
 cd SpringBootWeb
 
-Use Eclipse IDE: File --> Import --> Navigate to your Project folder "SpringBootWeb" 
+Use Eclipse IDE: File --> Import --> Existing Maven Projects --> Navigate to your Project folder "SpringBootWeb" 
 
 Right click pom.xml file and install
 
@@ -24,20 +24,23 @@ Using browser navigate to http://localhost:5001/myFirstGet
 
 
 ### Prerequisites
-### 1.Install Java
+### Install Java
 Download java from https://jdk.java.net/21/
 After download double click use the default options and complete installation.
 
-### 2.Git
+### Install Eclipse
+https://eclipse.org/downloads/packages/installer
+
+### Install Git
 Download Git from here https://git-scm.com/download/win
 After download double click use the default options and complete installation.
 
 
-### 3.Maven
+### Install Maven
 Download and install Maven from here https://maven.apache.org/download.cgi
 Follow the steps here https://maven.apache.org/install.html
 
-### 4.Postman
+### Install Postman
 Download and install Postman from here https://maven.apache.org/download.cgi
 Follow the steps here https://maven.apache.org/install.html
 
