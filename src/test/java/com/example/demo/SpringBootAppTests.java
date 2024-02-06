@@ -10,7 +10,7 @@ import org.springframework.boot.test.web.client.TestRestTemplate;
 
 
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
-public class DemoApplicationTests {
+public class SpringBootAppTests {
 
 	@Test
 	public void contextLoads() {

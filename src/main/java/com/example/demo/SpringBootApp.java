@@ -10,14 +10,13 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.model.BasicRequest;
 import com.example.model.BasicResponse;
 import com.example.model.Register;
 
-@CrossOrigin(origins  = {"http://localhost:3000"})
+@CrossOrigin(origins = "*", allowedHeaders = "*", maxAge = 3600)
 @SpringBootApplication
 @RestController
-public class DemoApplication {
+public class SpringBootApp {
 	
 	@Value("${env}")
 	private String env;
@@ -43,6 +42,6 @@ public class DemoApplication {
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(SpringBootApp.class, args);
 	}
 }

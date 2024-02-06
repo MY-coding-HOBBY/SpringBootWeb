@@ -1,0 +1,61 @@
+{
+	"info": {
+		"_postman_id": "e82b18ee-134c-4dff-b309-d1dcfece07e7",
+		"name": "SpringBootWeb",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "264977"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5001/myFirstGet",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5001/http://localhost:5001/myFirstGet",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"http:",
+						"",
+						"localhost:5001",
+						"myFirstGet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5001/myFirstGet Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"fname\": \"Mark\",\r\n    \"lname\": \"Zuckerberg\",\r\n    \"email\": \"mark@facebook.com\",\r\n    \"password\": \"ConnectTheWorld\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5001/register/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"register",
+						"create"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
