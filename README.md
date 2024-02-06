@@ -33,7 +33,7 @@ Download Git from here https://git-scm.com/download/win
 After download double click use the default options and complete installation.
 
 
-### @@ 3.Maven
+### 3.Maven
 Download and install Maven from here https://maven.apache.org/download.cgi
 Follow the steps here https://maven.apache.org/install.html
 
